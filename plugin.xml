@@ -37,10 +37,10 @@
         </config-file>
         <!-- iOS access messages -->
         <config-file parent="NSCameraUsageDescription" target="*-Info.plist">
-            <string>Enable Sapphire Care to access your camera to take photos in order to upload a profile photo to the app.</string>
+            <string>Enable Sapphire Care to access your camera so that you can take a picture for your profile.</string>
         </config-file>
         <config-file parent="NSPhotoLibraryUsageDescription" target="*-Info.plist">
-            <string>Enable Sapphire Care to access your camera roll in order to upload a profile photo to the app.</string>
+            <string>Enable Sapphire Care to access your photo library so that you can upload a picture for your profile.</string>
         </config-file>        
     </platform>
     
