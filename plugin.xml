@@ -29,27 +29,19 @@
     
     <!-- ios -->
     <platform name="ios">
-        
         <!-- iOS9 whitelisting -->
         <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
             <array>
                 <string>uber</string>
             </array>
         </config-file>
-        
+        <!-- iOS access messages -->
         <config-file parent="NSCameraUsageDescription" target="*-Info.plist">
-           <string>We are using a camera to bla bla bla </string>
-       </config-file>
-
-       <config-file parent="NSPhotoLibraryUsageDescription" target="*-Info.plist">
-           <string>We are using the gallery to bla bla bla </string>
-       </config-file>
-
-       <config-file parent="NSMicrophoneUsageDescription" target="*-Info.plist">
-           <string>We are using your microphone to bla bla bla </string>
-       </config-file>
-        
-        
+            <string>Enable Sapphire Care to access your camera to take photos in order to upload a profile photo to the app.</string>
+        </config-file>
+        <config-file parent="NSPhotoLibraryUsageDescription" target="*-Info.plist">
+            <string>Enable Sapphire Care to access your camera roll in order to upload a profile photo to the app.</string>
+        </config-file>        
     </platform>
     
 </plugin>
